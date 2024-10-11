@@ -19,7 +19,7 @@ public class ShoppingSteps {
 
     WebDriver driver;
 
-    // WebDriver'ı başlatan @Before adımı
+
     @Before
     public void setUp() {
         WebDriverManager.chromedriver().setup();

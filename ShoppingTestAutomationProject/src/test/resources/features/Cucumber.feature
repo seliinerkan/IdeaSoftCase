@@ -14,8 +14,3 @@ Feature: Shopping Cart Functionality
   Scenario: Verifying the cart contents
     When I navigate to the cart page
     Then The cart should contain 5 items of the selected product
-
-
-
-
-

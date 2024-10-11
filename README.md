@@ -61,7 +61,11 @@ JUnit ile Cucumber senaryolarını çalıştıran sınıf. Testlerin başlatılm
 Cucumber test senaryolarında tanımlanan adımların Java ile uygulanmasıdır. Her bir Gherkin adımına karşılık gelen fonksiyonlar burada yer alır.
 
 - target/cucumber-reports.html  
-Testler çalıştırıldıktan sonra oluşturulan Cucumber raporları HTML formatında burada saklanır.
+Testler çalıştırıldıktan sonra oluşturulan Cucumber raporları HTML formatında burada saklanır.  
+  
+
+# Manuel Test Case Çalışması
+Test Case ve Bug Raporlarına TestPlan&BugReport.xlsx bu dizinden ulaşabilirsiniz.
 
 
 

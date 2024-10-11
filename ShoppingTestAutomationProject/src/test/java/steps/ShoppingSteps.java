@@ -57,10 +57,10 @@ public class ShoppingSteps {
     }
 
     @And("I select {int} item from dropdown menu")
-    public void iSelectItemFromDropdownMenu(int arg0) {
+    public void iSelectItemFromDropdownMenu(int item) {
         WebElement quantityDropdown = waitUntilFindElement(driver, By.id("qty-input"));
         Select selectQuantity = new Select(quantityDropdown);
-        selectQuantity.selectByIndex(arg0 - 1);
+        selectQuantity.selectByIndex(item - 1);
     }
 
     @When("I add the selected items to the cart")
@@ -91,8 +91,8 @@ public class ShoppingSteps {
     @When("I navigate to the cart page")
     public void iNavigateToThePage() {
         //driver.get("https://testcase.myideasoft.com/sepet");
-        WebElement sepetLink = waitUntilFindElement(driver, By.xpath("//a[@href='/sepet' and @title='Sepet']"));
-        sepetLink.click();
+        WebElement cartLink = waitUntilFindElement(driver, By.xpath("//a[@href='/sepet' and @title='Sepet']"));
+        cartLink.click();
     }
 
 
